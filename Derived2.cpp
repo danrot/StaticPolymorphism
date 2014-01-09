@@ -4,5 +4,5 @@
 using namespace std;
 
 void Derived2::implementation() {
-    cout << "Derived2's implementation" << endl;
+    cout << "Derived2's implementation: " << i << endl;
 }

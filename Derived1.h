@@ -4,7 +4,10 @@
 #include "Base.h"
 
 class Derived1 : public Base<Derived1> {
+    private:
+        int j;
     public:
+        Derived1();
         void implementation();
 };
 
