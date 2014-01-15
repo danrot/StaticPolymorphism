@@ -2,11 +2,7 @@
 #include "Derived2.h"
 
 int main(int argc, char **argv) {
-    Base<Derived1> *derived1 = new Base<Derived1>();
-    derived1->method();
-    delete derived1;
-    
-    derived1 = new Derived1();
+    Base<Derived1> *derived1 = new Derived1();
     derived1->method();
     delete derived1;
     
